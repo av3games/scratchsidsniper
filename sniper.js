@@ -39,11 +39,10 @@
         var sid = getCookie("scratchsessionsid");
     
         if(sid != null) {
-            alert("Welcome again, " + firstName);
+            alert("Welcome again, " + sid);
         } else {
             }
         }
     }
     
     window.onload = checkCookie;
-    window.onload = 
